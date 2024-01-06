@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between ;
+    margin: 0
+}
+
+.bg-dark{
+    background-color: #1F2937;
+    color: white;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.header-logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+    padding: 20px;
+}
