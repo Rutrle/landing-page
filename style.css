@@ -68,3 +68,44 @@ button{
     margin: 10px 0;
     border-radius: 6px;
 }
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px 400px;
+    gap: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.information-title{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.information-ilustration{
+    width: 90px;
+    height: 90px;
+    border-color: #3882F6;
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.information-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
