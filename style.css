@@ -109,3 +109,44 @@ button{
     justify-content: center;
     gap: 10px;
 }
+
+.citation{
+    background-color: #E5E7EB;
+    padding: 80px 350px;
+}
+
+.citation-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.citation-author{
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}
+
+.contact{
+    display: flex;
+    margin: 150px 450px;
+    padding: 50px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.contact-title{
+    font-size: 24px;
+    font-weight: extra-bold;
+}
+
+.contact-button{
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 1px;
+    padding: 5px 20px;
+    
+}
